@@ -1,4 +1,33 @@
+header {
+  background-color: grey;
+  font-family: fantasy;
+  color: linen;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
 body {
-  background-color: tomato;
-  font-family: verdana;
+  background-color: linen;
+  color: grey;
+  font-family: arial;
+  text-align: center;
+  margin: auto;
+}
+
+a {
+  color: grey;
+}
+
+nav {
+  border: 2px solid grey;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 500px;
+  align-items: center;
+  padding: 30px;
 }

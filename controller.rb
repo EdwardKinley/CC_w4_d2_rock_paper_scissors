@@ -10,6 +10,7 @@ end
 
 get '/game/:player1/:player2' do
   game = Game.new(params[:player1], params[:player2])
-  @winner = game.play_game()
+  @winning_hand = game.play_game()
+  @winning_player = game.return_winner()
   erb(:result)
 end
