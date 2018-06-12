@@ -12,7 +12,7 @@ class Game
     return @player2 if @player1 == "rock" && @player2 == "paper"
     return @player2 if @player1 == "scissors" && @player2 == "rock"
     return @player2 if @player1 == "paper" && @player2 == "scissors"
-    return "draw" if @player1 == @player2
+    return "no-one: it's a draw" if @player1 == @player2
   end
 
 end
